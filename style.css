@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 90vh;
+    background-image: url(./images/tree.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    height: 10rem;
+    color: white;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 4rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.box {
+    display: inline-block;
+    width: 10%;
+    height: .4rem;
+    background-color: lightgray;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+footer .left {
+    background-color: red;
+}
+
+footer .left:hover,
+footer .middle:hover,
+footer .right:hover {
+    background-color: yellow;
+}
